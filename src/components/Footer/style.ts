@@ -1,20 +1,20 @@
+import { BACKGROUND } from '@/utils/variables';
 import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    background-color: #fff;
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    background-color: ${BACKGROUND.SECONDARY};
+    display: flex;
     height: 10rem;
+    justify-content: center;
+    padding: 1rem;
 `;
 
 export const LogoContainer = styled.div`
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
 `;
 
 export const FooterText = styled.p``;

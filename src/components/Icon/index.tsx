@@ -2,12 +2,13 @@ import React, { FC } from 'react'
 import { Container } from './style'
 
 interface Props {
-  icon: JSX.Element
+  icon: JSX.Element;
+  onClick?: () => void;
 }
 
-const Icon:FC<Props> = ({icon}) => {
+const Icon:FC<Props> = ({icon, onClick}) => {
   return (
-    <Container>
+    <Container onClick={onClick} >
       {icon}
     </Container>
   )
