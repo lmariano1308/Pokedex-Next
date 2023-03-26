@@ -4,12 +4,12 @@ import styled from "styled-components";
 
 export const NavbarContainer = styled.nav`
     align-items: center;
-    background-color: ${BACKGROUND.PRIMARY};
+    background-color: ${COLORS.WHITE};
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: flex;
     height: 9rem;
     justify-content: space-between;
-    padding: 1rem 1.2rem;
+    padding: 2rem;
 `;
 
 export const NavbarLogoContainer = styled.div`

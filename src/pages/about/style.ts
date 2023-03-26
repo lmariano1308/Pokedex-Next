@@ -35,7 +35,7 @@ export const CardTitle = styled.h1`
 `;
 
 export const CardSubtitle = styled.h2`
-    color: ${COLORS.TEXT};
+    color: ${COLORS.TEXT_SECONDARY};
     font-size: 2.4rem;
     font-weight: 500;
 `;
@@ -74,8 +74,9 @@ export const IconContainer = styled.div`
     align-items: center;
     display: flex;
     gap: 2rem;
-    margin: auto 0;
+    margin: 1rem 0;
     width: 100%;
+
 `;
 
 export const GitHub = styled(GithubLogo).attrs({

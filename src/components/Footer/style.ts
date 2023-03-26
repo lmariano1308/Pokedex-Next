@@ -1,9 +1,9 @@
-import { BACKGROUND } from '@/utils/variables';
+import { BACKGROUND, COLORS } from '@/utils/variables';
 import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
     align-items: center;
-    background-color: ${BACKGROUND.SECONDARY};
+    background-color: ${COLORS.WHITE};
     display: flex;
     height: 10rem;
     justify-content: center;

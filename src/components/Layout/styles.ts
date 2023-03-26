@@ -5,5 +5,5 @@ export const LayoutContainer = styled.div`
     background: ${BACKGROUND.GRADIENT};
     min-height: 80vh;
     display: flex;
-    padding: 1rem;
+    padding: 2rem;
 `;
