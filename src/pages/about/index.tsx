@@ -1,4 +1,5 @@
-import { AboutCard, AboutContainer, CardSubtitle, CardText, CardTitle, Container, GitHub, IconContainer, ImageContainer, Img, Instagram, LinkedIn, LinkTree } from './style'
+import React from 'react';
+import { AboutCard, AboutContainer, CardSubtitle, CardText, CardTitle, Container, GitHub, IconContainer, ImageContainer, Img, Instagram, LinkedIn, LinkTree } from '../../styles/about'
 import Image from 'next/image'
 import Icon from '@/components/Icon'
 
@@ -33,7 +34,7 @@ const About = () => {
             Me chamo Lucas, tenho 23 anos e sou desenvolvedor Front-End com os frameworks React, React Native e Next.JS, Além de claro, alto conhecimento em JavaScript e TypeScript. 
             <br />
             <br />
-            Atualmente trabalho como Estagiário na empresa <a href="https://mindtech.com.br/" target="_blank">Mindtech</a>, onde desenvolvo aplicações web utilizando React.JS e Next.JS.
+            Atualmente trabalho como Estagiário na empresa <a href="https://mindtech.com.br/" target="_blank" rel="noreferrer">Mindtech</a>, onde desenvolvo aplicações web utilizando React.JS e Next.JS.
           </CardText>
           <CardSubtitle>
             Redes Sociais:

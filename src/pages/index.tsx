@@ -1,4 +1,5 @@
-import { Container, Description, ImageContainer, Img, TextContainer, Title } from "./styles/home";
+import React from "react";
+import { Container, Description, ImageContainer, Img, TextContainer, Title } from "../styles/home";
 import Charizard from '../../public/images/charizard.png'
 import localFont from 'next/font/local'
 import Button from "@/components/Button";
